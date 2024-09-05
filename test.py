@@ -44,7 +44,7 @@ def blue(img):
             
             
 while True:
-    
+
     frame = picam2.capture_array()   # Capture frame with Picamera2   
     red(frame)
     blue(frame)
